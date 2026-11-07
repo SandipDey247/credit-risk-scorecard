@@ -1,0 +1,16 @@
+Feature,Attribute_Bin,WoE,Score_Points
+Interest_Rate,"(6.0089999999999995, 9.84]",0.572,9
+Interest_Rate,"(9.84, 12.49]",0.2,3
+Interest_Rate,"(12.49, 15.26]",0.0234,0
+Interest_Rate,"(15.26, 18.04]",-0.1568,-2
+Interest_Rate,"(18.04, 21.7]",-0.4055,-6
+Credit_Score,"(299.999, 409.0]",-0.3723,-5
+Credit_Score,"(409.0, 520.0]",-0.2015,-3
+Credit_Score,"(520.0, 629.0]",0.0082,0
+Credit_Score,"(629.0, 737.0]",0.2749,4
+Credit_Score,"(737.0, 850.0]",0.5177,7
+Loan_to_Income_Ratio,"(0.099, 0.385]",0.1666,6
+Loan_to_Income_Ratio,"(0.385, 0.662]",0.1168,4
+Loan_to_Income_Ratio,"(0.662, 0.949]",0.1318,5
+Loan_to_Income_Ratio,"(0.949, 1.218]",-0.1377,-5
+Loan_to_Income_Ratio,"(1.218, 1.5]",-0.2256,-8

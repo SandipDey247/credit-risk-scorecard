@@ -1,0 +1,64 @@
+# =====================================================================
+# 1. Security & Environment Secrets (CRITICAL)
+# =====================================================================
+# Ignores all real credential files
+.env
+secret.env
+*.env.local
+*.env.*.local
+
+# DO NOT ignore the public template
+!.env.example
+
+# =====================================================================
+# 2. Jupyter Notebook Backups & Checkpoints
+# =====================================================================
+# Prevents duplicate '-checkpoint.ipynb' files from polluting GitHub
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# =====================================================================
+# 3. Python Bytecode & Virtual Environments
+# =====================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =====================================================================
+# 4. Large Raw Data Files (Optional)
+# =====================================================================
+# Uncomment these if your raw CSV files are over GitHub's 100MB limit
+# customers.csv
+# products.csv
+# sales.csv
+# customer_churn_scored.csv
+
+# =====================================================================
+# 5. Operating System Junk
+# =====================================================================
+# Windows thumbnail & folder layout caches
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =====================================================================
+# 6. IDE & Editor Configs
+# =====================================================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

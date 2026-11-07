@@ -1,0 +1,14 @@
+---
+
+### Suggested Requirements File (`requirements.txt`)
+
+To ensure clean installation for anyone cloning your repository, create a `requirements.txt` file containing:
+
+```text
+pandas
+numpy
+scikit-learn
+sqlalchemy
+pymysql
+python-dotenv
+streamlit
